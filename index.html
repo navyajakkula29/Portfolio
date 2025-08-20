@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navya Jakkula · Senior Software Developer</title>
+  <meta name="description" content="Senior Software Developer (Java · Spring Boot · Angular · AWS). Building cloud-native, event-driven systems with clean, reliable delivery." />
+  <meta property="og:title" content="Navya Jakkula · Senior Software Developer" />
+  <meta property="og:description" content="Java · Spring Boot · Angular · AWS · Microservices" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230A84FF'/%3E%3Ctext x='50' y='60' text-anchor='middle' font-size='56' font-family='system-ui' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Navya Jakkula",
+    "jobTitle": "Senior Software Developer",
+    "description": "Java, Spring Boot, Angular, AWS, Microservices",
+    "url": "https://your-github-username.github.io/portfolio",
+    "sameAs": [
+      "https://www.linkedin.com/in/your-linkedin/",
+      "https://github.com/your-github-username"
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="site-header container">
+  <a href="#" class="brand" aria-label="Home">
+    <span class="brand__logo" aria-hidden="true">NJ</span>
+    <span class="brand__text">Navya Jakkula</span>
+  </a>
+  <nav class="nav">
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="themeToggle" class="btn btn--icon" aria-label="Toggle dark mode" title="Toggle theme">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M21.64 13a1 1 0 0 0-1.05-.14A8 8 0 1 1 11.14 3.4a1 1 0 0 0-.14-1.05 1 1 0 0 0-1.11-.3A10 10 0 1 0 22 14.11a1 1 0 0 0-.36-1.11z"/></svg>
+  </button>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero__text">
+      <h1>Senior Software Developer</h1>
+      <p class="lead">
+        	Java Full Stack Developer with 7+ years of experience delivering scalable enterprise applications across finance, healthcare, retail, media, and e-commerce using Java, Spring Boot, React.js, Angular, Kafka, and AWS/Azure.
+        <strong>Java 17</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong>, <strong>PostgreSQL</strong>, <strong>Redis</strong>, 
+        <strong>Angular 17</strong>, and <strong>AWS</strong>.
+      </p>
+      <div class="cta">
+        <a class="btn" href="Navya_Jakkula.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn btn--ghost" href="mailto:navya292700@gmail.com">Email Me</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/navya-jakkula2925/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn--ghost" href="https://github.com/navyajakkula29" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="hero__card">
+      <ul class="hero__highlights">
+        <li>Event-driven systems with Kafka/MSK</li>
+        <li>Secure APIs (OAuth2/JWT), idempotent writes</li>
+        <li>Zero-downtime releases via Helm + Jenkins</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container section">
+    <h2>Core Skills</h2>
+    <div class="chips">
+      <span class="chip">Java 17</span>
+      <span class="chip">Spring Boot</span>
+      <span class="chip">Spring Security</span>
+      <span class="chip">WebFlux</span>
+      <span class="chip">REST API</span>
+      <span class="chip">Apache Kafka</span>
+      <span class="chip">PostgreSQL</span>
+      <span class="chip">Redis</span>
+      <span class="chip">Angular 17</span>
+      <span class="chip">TypeScript</span>
+      <span class="chip">React.js</span>
+      <span class="chip">Docker</span>
+      <span class="chip">Kubernetes (EKS)</span>
+      <span class="chip">AWS (RDS · S3 · CloudFront, Lambda)</span>
+      <span class="chip">Jenkins</span>
+      <span class="chip">Microservices</span>
+      <span class="chip">JUnit,mockito</span>
+      <span class="chip">Prometheus · Grafana · CloudWatch</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="container section">
+    <h2>Experience</h2>
+
+    <!-- FedEx -->
+    <article class="card reveal">
+      <header class="card__header">
+        <div>
+          <h3>FedEx — Senior Software Developer</h3>
+          <p class="subtle">Cloud-Native Rewards (Ship &amp; Earn) · Jan 2024 – Present · Dallas, TX</p>
+        </div>
+        <button class="btn btn--small js-toggle" aria-expanded="false" aria-controls="fedex-details">Details</button>
+      </header>
+      <p>
+        Built the FedEx Rewards platform where members activate offers, earn points on eligible shipments, redeem for gift cards, and request late-delivery credits.
+      </p>
+      <ul class="bullets">
+        <li>Designed microservices for Member, Offer, Points Ledger, Redemption, and SLA Credit with <strong>Spring Boot</strong> and <strong>PostgreSQL</strong>.</li>
+        <li>Kept balances accurate with a <strong>double-entry ledger</strong>; enabled fast earn decisions via a lightweight rule engine + <strong>Redis</strong>.</li>
+        <li>Ingested shipment events through <strong>Kafka/MSK</strong>; published domain events for decoupled notifications and analytics.</li>
+        <li>Built the member/ops UI in <strong>Angular 17</strong> using <strong>NgRx</strong> and <strong>RxJS</strong> for real-time updates.</li>
+        <li>Shipped on <strong>AWS EKS</strong> with <strong>Docker</strong>, <strong>Helm</strong>, and <strong>Jenkins</strong>; added tracing/metrics via <strong>OpenTelemetry</strong>, <strong>Prometheus</strong>, and <strong>Grafana</strong>.</li>
+      </ul>
+      <div id="fedex-details" class="card__details">
+        <p><strong>Impact:</strong> Reduced points-balance p95 latency ~35% (Redis + SQL tuning) and delivered zero-downtime releases with blue/green deployments.</p>
+        <p class="tags"><span>Java 17</span><span>Spring Boot</span><span>Kafka</span><span>PostgreSQL</span><span>Redis</span><span>Angular 17</span><span>AWS EKS</span></p>
+      </div>
+    </article>
+
+    <!-- REI Systems / FDA -->
+    <article class="card reveal">
+      <header class="card__header">
+        <div>
+          <h3>REI Systems — Software Developer (Client: FDA)</h3>
+          <p class="subtle">Import Inspection &amp; OPI Modernization · 2024 – Present · Richmond, VA (Remote)</p>
+        </div>
+        <button class="btn btn--small js-toggle" aria-expanded="false" aria-controls="rei-details">Details</button>
+      </header>
+      <p>
+        Modernized inspection workflows and decommissioned legacy UI by rebuilding secure Angular modules and a Java rules engine for import decisions.
+      </p>
+      <ul class="bullets">
+        <li>Implemented a <strong>Java rule engine</strong> with audit trails; externalized rules in <strong>Oracle</strong> via <strong>JPA</strong> + <strong>Liquibase</strong>.</li>
+        <li>Rebuilt UI with <strong>Angular 17</strong>, <strong>JWT/OAuth2</strong>, route guards, and accessible forms.</li>
+        <li>Automated smoke/regression using <strong>Katalon (Groovy)</strong> and integrated API health checks in CI.</li>
+        <li>Deployed on <strong>AWS EKS</strong> with <strong>Docker</strong> and <strong>Helm</strong>; centralized logs/metrics in <strong>CloudWatch</strong> and <strong>Grafana</strong>.</li>
+      </ul>
+      <div id="rei-details" class="card__details">
+        <p><strong>Impact:</strong> Brought manual inspection below 20% by expanding rule coverage and enabling analyst-driven updates without redeploys.</p>
+        <p class="tags"><span>Spring Boot</span><span>Angular 17</span><span>Oracle</span><span>Liquibase</span><span>AWS</span></p>
+      </div>
+    </article>
+
+    <!-- BankUnited -->
+    <article class="card reveal">
+      <header class="card__header">
+        <div>
+          <h3>BankUnited — Senior Software Developer (Contract)</h3>
+          <p class="subtle">Credit Card Installments (EMI) · 2022 – 2023 · Miami, FL (Remote)</p>
+        </div>
+        <button class="btn btn--small js-toggle" aria-expanded="false" aria-controls="bu-details">Details</button>
+      </header>
+      <p>
+        Built services that convert card transactions into structured EMIs with real-time eligibility, interest calculation, and repayment schedules.
+      </p>
+      <ul class="bullets">
+        <li>Developed <strong>Spring Boot</strong> services for eligibility, plan creation, and schedules on <strong>MariaDB</strong> with <strong>JPA</strong> + <strong>Liquibase</strong>.</li>
+        <li>Secured APIs with <strong>OAuth2/JWT</strong>; masked PII and added complete audit logs.</li>
+        <li>Integrated with card processor via signed REST + webhooks; published events to <strong>Kafka</strong> for downstream updates.</li>
+        <li>Deployed to <strong>Pivotal Cloud Foundry</strong> with blue/green cutovers; monitored via APM and <strong>Splunk</strong>.</li>
+      </ul>
+      <div id="bu-details" class="card__details">
+        <p><strong>Impact:</strong> Cut eligibility latency ~30% using Redis + SQL tuning; stabilized releases via standardized manifests and zero-downtime deploys.</p>
+        <p class="tags"><span>Java 17</span><span>Spring Boot</span><span>MariaDB</span><span>Kafka</span><span>PCF</span></p>
+      </div>
+    </article>
+  </section>
+
+  <!-- IMPACT -->
+  <section id="projects" class="container section">
+    <h2>Selected Impact</h2>
+    <div class="impact-grid">
+      <div class="impact">
+        <span class="impact__num">35%</span>
+        <span class="impact__desc">latency reduction on balance APIs</span>
+      </div>
+      <div class="impact">
+        <span class="impact__num">0</span>
+        <span class="impact__desc">downtime releases during peak cycles</span>
+      </div>
+      <div class="impact">
+        <span class="impact__num">90%</span>
+        <span class="impact__desc">drop in duplicate redemptions/credits</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container section">
+    <h2>Contact</h2>
+    <p>Open to Senior Software Developer / Full-Stack roles (Java + Angular). The fastest way to reach me is email.</p>
+    <div class="cta">
+      <a class="btn" href="mailto:navya292700@gmail.com">navya292700@example.com</a>
+      <a class="btn btn--ghost" href="https://www.linkedin.com/in/navya-jakkula2925/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <span>&copy; <span id="year"></span> Navya Jakkula</span>
+  <span class="dot">·</span>
+  <a href="#top">Back to top</a>
+</footer>
+</body>
+</html>
